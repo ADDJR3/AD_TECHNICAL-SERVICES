@@ -39,3 +39,41 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.services {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.service-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.service-box h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 22px;
+}
+
+.service-box p {
+  color: #555;
+  font-size: 16px;
+}
+
+
